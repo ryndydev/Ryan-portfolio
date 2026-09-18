@@ -4,6 +4,8 @@ export const site = {
   role: "Full-Stack Developer",
   domain: "https://ragba.dev",
   email: "adayaryan@gmail.com",
+  phone: "+63 992 676 2569",
+  whatsapp: "https://wa.me/639926762569",
   location: "Laoag City, Philippines",
   timezone: "GMT+8",
   degree: "BS Computer Engineering",

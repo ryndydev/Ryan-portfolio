@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Mail, ArrowUpRight } from "lucide-react";
-import { GithubIcon, LinkedinIcon } from "./brand-icons";
+import { GithubIcon, LinkedinIcon, WhatsappIcon } from "./brand-icons";
 import { site } from "@/content/site";
 import { Container } from "./ui";
 
@@ -17,6 +17,7 @@ export function Footer() {
             <SocialLink href={site.socials.github} label="GitHub"><GithubIcon className="size-4" /></SocialLink>
             <SocialLink href={site.socials.linkedin} label="LinkedIn"><LinkedinIcon className="size-4" /></SocialLink>
             <SocialLink href={`mailto:${site.email}`} label="Email"><Mail className="size-4" /></SocialLink>
+            <SocialLink href={site.whatsapp} label="WhatsApp"><WhatsappIcon className="size-4" /></SocialLink>
           </div>
         </div>
 

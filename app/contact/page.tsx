@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Mail, FileDown } from "lucide-react";
-import { GithubIcon, LinkedinIcon } from "@/components/brand-icons";
+import { GithubIcon, LinkedinIcon, WhatsappIcon } from "@/components/brand-icons";
 import { site } from "@/content/site";
 import { Container, SectionHeading } from "@/components/ui";
 import { ContactForm } from "@/components/contact-form";
@@ -14,6 +14,7 @@ export const metadata: Metadata = {
 
 const links = [
   { icon: Mail, label: "Email", value: site.email, href: `mailto:${site.email}` },
+  { icon: WhatsappIcon, label: "WhatsApp", value: site.phone, href: site.whatsapp },
   { icon: GithubIcon, label: "GitHub", value: "@ryndydev", href: site.socials.github },
   { icon: LinkedinIcon, label: "LinkedIn", value: "Ryan Adaya", href: site.socials.linkedin },
   { icon: FileDown, label: "Resume", value: "PDF download", href: site.resumePath },

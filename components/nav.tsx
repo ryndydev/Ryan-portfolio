@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { site } from "@/content/site";
 
@@ -27,7 +28,8 @@ export function Nav() {
       }`}
     >
       <nav className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-5 sm:px-8" aria-label="Primary">
-        <Link href="/" className="font-display text-xl text-ink" aria-label="Ryan Adaya — home">
+        <Link href="/" className="inline-flex items-center gap-2.5 font-display text-xl text-ink" aria-label="Ryan Adaya, home">
+          <Image src="/logo.svg" alt="" width={30} height={30} priority className="rounded-[7px]" />
           ragba<span className="text-amber">.</span>dev
         </Link>
 

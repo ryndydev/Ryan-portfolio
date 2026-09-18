@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Mail, ArrowUpRight } from "lucide-react";
 import { GithubIcon, LinkedinIcon, WhatsappIcon } from "./brand-icons";
@@ -9,7 +10,8 @@ export function Footer() {
     <footer className="border-t border-line">
       <Container className="grid gap-10 py-14 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
-          <p className="font-display text-2xl">
+          <p className="inline-flex items-center gap-2.5 font-display text-2xl">
+            <Image src="/logo.svg" alt="" width={32} height={32} className="rounded-[7px]" />
             ragba<span className="text-amber">.</span>dev
           </p>
           <p className="mt-3 max-w-sm text-sm leading-relaxed text-ink-muted">{site.tagline}</p>

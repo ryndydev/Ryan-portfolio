@@ -27,10 +27,12 @@ export const metadata: Metadata = {
     siteName: "ragba.dev",
     title: `${site.name} — ${site.role}`,
     description: site.tagline,
-    images: [{ url: "/images/og-fallback.webp", width: 1200, height: 630 }],
+    images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
   twitter: { card: "summary_large_image" },
   alternates: { canonical: "/" },
+  manifest: "/manifest.webmanifest",
+  icons: { icon: [{ url: "/icon.png", sizes: "64x64" }, { url: "/logo.svg", type: "image/svg+xml" }], apple: "/apple-icon.png" },
 };
 
 export const viewport: Viewport = {

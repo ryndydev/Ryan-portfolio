@@ -42,7 +42,7 @@ export const projects: Project[] = [
       "AI exercise matching from a categorized YouTube library",
     ],
     challenge:
-      "The coach needed one system for two audiences — private athletes on structured programs and the public buying evergreen programs — without maintaining a native app or paying App Store overhead. The existing setup scattered clients, videos, and payments across tools.",
+      "The coach needed one system for two audiences: private athletes on structured programs, and the public buying evergreen programs. And he wanted it without maintaining a native app or paying App Store overhead. The existing setup scattered clients, videos, and payments across tools.",
     solution:
       "I designed a single Next.js App Router codebase with three route groups (marketing, client, admin) protected by role-aware middleware. Supabase Postgres holds clients, programs, workouts, assessments, and progress; every table has a typed data-access module and a Zod schema. Stripe handles program checkout and subscriptions with webhooks reconciled against the database. An AI service matches exercises to athlete profiles from the coach's YouTube library, and GoHighLevel keeps marketing automation in sync.",
     features: [
@@ -108,7 +108,7 @@ export const projects: Project[] = [
     challenge:
       "Homeowners researching solar get generic numbers that ignore their province's rates and rebates. The tool had to feel instant, be trustworthy enough to share, and capture leads without feeling like a form.",
     solution:
-      "A step-by-step calculator with province-specific electricity rates and rebate logic, producing panel count, battery options, annual savings, and payback period. Inputs are progressive, results update live, and the estimate can be sent to the user — which is where lead capture happens naturally.",
+      "A step-by-step calculator with province-specific electricity rates and rebate logic, producing panel count, battery options, annual savings, and payback period. Inputs are progressive, results update live, and the estimate can be emailed to the user, which is where lead capture happens naturally.",
     features: [
       "Province-aware savings and ROI model",
       "Battery and EV-charger add-on estimates",
@@ -144,7 +144,7 @@ export const projects: Project[] = [
     title: "Content Optimization Suite",
     category: "SaaS · Analysis & scoring",
     summary:
-      "Optimization module that scores existing content against competitors and search intent, then proposes concrete edits — headings, gaps, tone, and structure — inside the editor.",
+      "Optimization module that scores existing content against competitors and search intent, then proposes concrete edits (headings, gaps, tone, structure) right inside the editor.",
     visibility: "nda",
     tier: "work",
     year: "2026",

@@ -9,7 +9,7 @@ export const site = {
   degree: "BS Computer Engineering",
   school: "Mariano Marcos State University",
   tagline:
-    "I build production web apps end to end — data model, API, interface, deployment — for clients in Canada, the US, and the Philippines.",
+    "I turn ideas into web apps people actually use. Database to deploy, one developer, no hand-offs. Currently building for teams in Canada, the US, and the Philippines.",
   availability:
     "Open to remote full-stack work worldwide. Based in the Philippines (GMT+8) with daily overlap for North American hours.",
   resumePath: "/Ryan-Adaya-Resume.pdf",
@@ -51,8 +51,8 @@ export const timeline = [
 export const services = [
   { title: "Full-Stack Web Applications", body: "Database, API, and interface built as one coherent system. You get a single accountable developer from schema to deploy." },
   { title: "Next.js Marketing Sites", body: "Fast, SEO-ready sites with clean content structure, analytics, and lead capture that actually converts." },
-  { title: "AI Features & LLM Integration", body: "Content generation, classification, and analysis wired into real workflows with the Claude and OpenAI APIs — with guardrails and cost controls." },
-  { title: "SaaS & Client Platforms", body: "Multi-role access, subscriptions, dashboards, and background jobs — the parts of a product that are genuinely hard to get right." },
+  { title: "AI Features & LLM Integration", body: "Content generation, classification, and analysis wired into real workflows with the Claude and OpenAI APIs, with guardrails and cost controls built in." },
+  { title: "SaaS & Client Platforms", body: "Multi-role access, subscriptions, dashboards, and background jobs. The parts of a product that are genuinely hard to get right." },
   { title: "Payments & CRM Integrations", body: "Stripe checkout and subscriptions, webhooks kept consistent with your database, and CRM sync via GoHighLevel or HubSpot." },
   { title: "Calculators & Interactive Tools", body: "Embeddable estimators and lead-gen tools with clear inputs, instant results, and tracking built in." },
 ];

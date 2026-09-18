@@ -8,7 +8,7 @@ import { Reveal } from "@/components/motion";
 
 export const metadata: Metadata = {
   title: "About",
-  description: `${site.name} — ${site.role} from the Philippines. ${site.degree}, building for clients in Canada, the US, and the Philippines since 2023.`,
+  description: `${site.name}, ${site.role} from the Philippines. ${site.degree}, building for clients in Canada, the US, and the Philippines since 2023.`,
   alternates: { canonical: "/about/" },
 };
 
@@ -35,7 +35,7 @@ export default function AboutPage() {
             Full-stack developer · AI integrations · Computer engineer
           </p>
           <p className="mt-6 max-w-xl leading-relaxed text-ink-muted">
-            I studied computer engineering at {site.school} and started shipping software in 2023 — first tabulation and
+            I studied computer engineering at {site.school} and started shipping software in 2023: first tabulation and
             voting systems for my college, then an IoT thesis, and from 2025 production web platforms for clients in Canada
             and the US. I care about the whole system: the schema, the API, the interface, and the deploy.
           </p>
@@ -69,7 +69,7 @@ export default function AboutPage() {
 
       <Container className="py-20">
         <Reveal>
-          <SectionHeading eyebrow="Toolkit" title="What I work with" body="Chosen per project, not by habit — but these are the tools I reach for most." />
+          <SectionHeading eyebrow="Toolkit" title="What I work with" body="Chosen per project, not by habit. These are the ones I reach for most." />
         </Reveal>
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {toolkit.map((g, i) => (

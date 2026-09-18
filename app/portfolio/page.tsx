@@ -18,7 +18,7 @@ export default function PortfolioPage() {
         <SectionHeading
           eyebrow="Portfolio"
           title="Project gallery"
-          body={`${projects.length} projects — ${projects.length - nda} public, ${nda} under NDA. Click any card for the full case study.`}
+          body={`${projects.length} projects: ${projects.length - nda} public, ${nda} under NDA. Click any card for the full case study.`}
         />
       </Reveal>
       <div className="mt-10">

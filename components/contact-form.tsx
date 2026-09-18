@@ -68,7 +68,7 @@ export function ContactForm() {
         </button>
         <p role="status" aria-live="polite" className="text-sm">
           {status === "sent" && (
-            <span className="inline-flex items-center gap-1.5 text-amber"><Check className="size-4" /> Sent — I&apos;ll reply within a day.</span>
+            <span className="inline-flex items-center gap-1.5 text-amber"><Check className="size-4" /> Sent. I&apos;ll reply within a day.</span>
           )}
           {status === "error" && (
             <span className="inline-flex items-center gap-1.5 text-red-400">

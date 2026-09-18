@@ -8,7 +8,7 @@ import { Reveal } from "@/components/motion";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Hire Ryan Adaya — full-stack developer available for remote projects.",
+  description: "Hire Ryan Adaya, a full-stack developer available for remote projects.",
   alternates: { canonical: "/contact/" },
 };
 

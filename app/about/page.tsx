@@ -8,7 +8,7 @@ import { Reveal } from "@/components/motion";
 
 export const metadata: Metadata = {
   title: "About",
-  description: `${site.name}, ${site.role} from the Philippines. ${site.degree}, building for clients in Canada, the US, and the Philippines since 2023.`,
+  description: `${site.name}, ${site.role} from the Philippines. ${site.degree}, building for clients worldwide since 2023.`,
   alternates: { canonical: "/about/" },
 };
 
@@ -36,8 +36,8 @@ export default function AboutPage() {
           </p>
           <p className="mt-6 max-w-xl leading-relaxed text-ink-muted">
             I studied computer engineering at {site.school} and started shipping software in 2023: first tabulation and
-            voting systems for my college, then an IoT thesis, and from 2025 production web platforms for clients in Canada
-            and the US. I care about the whole system: the schema, the API, the interface, and the deploy.
+            voting systems for my college, then an IoT thesis, and from 2025 production web platforms for clients around
+            the world. I care about the whole system: the schema, the API, the interface, and the deploy.
           </p>
         </Reveal>
       </Container>

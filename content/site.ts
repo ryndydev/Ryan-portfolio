@@ -11,9 +11,9 @@ export const site = {
   degree: "BS Computer Engineering",
   school: "Mariano Marcos State University",
   tagline:
-    "I turn ideas into web apps people actually use. Database to deploy, one developer, no hand-offs. Currently building for teams in Canada, the US, and the Philippines.",
+    "I turn ideas into web apps people actually use. Database to deploy, one developer, no hand-offs. Working with clients worldwide, fully remote.",
   availability:
-    "Open to remote full-stack work worldwide. Based in the Philippines (GMT+8) with daily overlap for North American hours.",
+    "Open to remote full-stack work with clients anywhere in the world. Based in the Philippines (GMT+8), flexible hours to match your timezone.",
   resumePath: "/Ryan-Adaya-Resume.pdf",
   socials: {
     github: "https://github.com/ryndydev",
@@ -22,7 +22,7 @@ export const site = {
   stats: [
     { value: 3, suffix: "+", label: "Years building" },
     { value: 10, suffix: "+", label: "Projects shipped" },
-    { value: 3, suffix: "", label: "Countries served" },
+    { value: 3, suffix: "+", label: "Countries served" },
     { value: 5, suffix: "", label: "Industries" },
   ],
   nav: [

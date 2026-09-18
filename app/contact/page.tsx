@@ -51,7 +51,7 @@ export default function ContactPage() {
           ))}
         </ul>
       </Reveal>
-      <Reveal delay={0.1} className="card p-6 sm:p-8">
+      <Reveal delay={0.1} className="card self-start p-6 sm:p-8">
         <h2 className="font-display text-2xl">Send a message</h2>
         <p className="mt-1 text-sm text-ink-muted">Replies within one business day.</p>
         <div className="mt-6">

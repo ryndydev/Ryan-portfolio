@@ -1,7 +1,7 @@
 export const site = {
   name: "Ryan Adaya",
   fullName: "Ryan Anthony Gabriel B. Adaya",
-  role: "Full-Stack Developer",
+  role: "Full-Stack Developer & SEO Specialist",
   domain: "https://ragba.dev",
   email: "adayaryan@gmail.com",
   phone: "+63 992 676 2569",
@@ -11,9 +11,9 @@ export const site = {
   degree: "BS Computer Engineering",
   school: "Mariano Marcos State University",
   tagline:
-    "I turn ideas into web apps people actually use. Database to deploy, one developer, no hand-offs. Working with clients worldwide, fully remote.",
+    "I turn ideas into web apps people actually use, and make sure they get found. Database to deploy, plus the SEO to rank it, from one developer with no hand-offs. Working with clients worldwide, fully remote.",
   availability:
-    "Open to remote full-stack work with clients anywhere in the world. Based in the Philippines (GMT+8), flexible hours to match your timezone.",
+    "Open to remote full-stack and SEO work with clients anywhere in the world. Based in the Philippines (GMT+8), flexible hours to match your timezone.",
   resumePath: "/Ryan-Adaya-Resume.pdf",
   socials: {
     github: "https://github.com/ryndydev",
@@ -40,19 +40,21 @@ export const toolkit = [
   { group: "Data", items: ["PostgreSQL", "Supabase", "MySQL", "Firebase", "Redis"] },
   { group: "AI & Integrations", items: ["Claude API", "OpenAI API", "Prompt engineering", "Stripe", "GoHighLevel", "YouTube API"] },
   { group: "Infra & Tools", items: ["Docker", "GitHub Actions", "Vercel", "Git", "Playwright", "Vitest"] },
+  { group: "SEO", items: ["Technical SEO", "Keyword research", "On-page & content SEO", "Schema / structured data", "Core Web Vitals", "Semrush", "Google Search Console", "GA4"] },
 ];
 
 export const timeline = [
   { year: "2020", title: "Started BS Computer Engineering", body: "Mariano Marcos State University. Java, Python, IoT, and the fundamentals that still shape how I design systems." },
   { year: "2023", title: "First shipped projects", body: "Built a tabulation system, a student-council voting platform, and interned on Globe telecom infrastructure." },
   { year: "2024", title: "Graduated · IoT thesis", body: "Delivered an IoT solar dryer with automatic hybrid-energy switching, plus a school file-management system." },
-  { year: "2025", title: "Production web for real clients", body: "Marketing platform and savings estimator for a national solar installer; full rebuild of the DJP Athlete coaching platform in Next.js." },
+  { year: "2025", title: "Production web and SEO for real clients", body: "Lead developer and SEO on a national solar installer's marketing platform and savings estimator; full rebuild of the DJP Athlete coaching platform in Next.js." },
   { year: "2026", title: "AI SaaS under NDA", body: "Content generation, optimization, and long-term planning modules for a multi-LLM SaaS platform." },
 ];
 
 export const services = [
   { title: "Full-Stack Web Applications", body: "Database, API, and interface built as one coherent system. You get a single accountable developer from schema to deploy." },
   { title: "Next.js Marketing Sites", body: "Fast, SEO-ready sites with clean content structure, analytics, and lead capture that actually converts." },
+  { title: "SEO & Search Growth", body: "Keyword strategy, technical audits, on-page and content optimization, schema, and Core Web Vitals, tracked in Semrush and Search Console. Sites that rank, not just sites that load." },
   { title: "AI Features & LLM Integration", body: "Content generation, classification, and analysis wired into real workflows with the Claude and OpenAI APIs, with guardrails and cost controls built in." },
   { title: "SaaS & Client Platforms", body: "Multi-role access, subscriptions, dashboards, and background jobs. The parts of a product that are genuinely hard to get right." },
   { title: "Payments & CRM Integrations", body: "Stripe checkout and subscriptions, webhooks kept consistent with your database, and CRM sync via GoHighLevel or HubSpot." },

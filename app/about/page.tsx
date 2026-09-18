@@ -32,12 +32,13 @@ export default function AboutPage() {
             <span className="text-ink-muted">Gabriel B. Adaya</span>
           </h1>
           <p className="mt-4 font-mono text-[12px] uppercase tracking-[0.18em] text-ink-muted">
-            Full-stack developer · AI integrations · Computer engineer
+            Full-stack developer · SEO · AI integrations · Computer engineer
           </p>
           <p className="mt-6 max-w-xl leading-relaxed text-ink-muted">
             I studied computer engineering at {site.school} and started shipping software in 2023: first tabulation and
             voting systems for my college, then an IoT thesis, and from 2025 production web platforms for clients around
-            the world. I care about the whole system: the schema, the API, the interface, and the deploy.
+            the world, as lead developer and SEO. I care about the whole system: the schema, the API, the interface, the
+            deploy, and whether it ranks.
           </p>
         </Reveal>
       </Container>

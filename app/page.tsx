@@ -26,7 +26,7 @@ export default function HomePage() {
               <h1 className="font-display mt-4 text-[clamp(3.25rem,9vw,6.5rem)] leading-[0.95] text-ink">
                 Full-Stack
                 <br />
-                <span className="italic text-amber">Developer</span>
+                <span className="italic text-amber">Developer &amp; SEO</span>
               </h1>
             </Reveal>
             <Reveal delay={0.1}>

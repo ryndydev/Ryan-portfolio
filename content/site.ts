@@ -46,7 +46,7 @@ export const timeline = [
   { year: "2020", title: "Started BS Computer Engineering", body: "Mariano Marcos State University. Java, Python, IoT, and the fundamentals that still shape how I design systems." },
   { year: "2023", title: "First shipped projects", body: "Built a tabulation system, a student-council voting platform, and interned on Globe telecom infrastructure." },
   { year: "2024", title: "Graduated · IoT thesis", body: "Delivered an IoT solar dryer with automatic hybrid-energy switching, plus a school file-management system." },
-  { year: "2025", title: "Production web for real clients", body: "Solar X Canada marketing site and calculator tooling; full rebuild of the DJP Athlete coaching platform in Next.js." },
+  { year: "2025", title: "Production web for real clients", body: "Marketing platform and savings estimator for a national solar installer; full rebuild of the DJP Athlete coaching platform in Next.js." },
   { year: "2026", title: "AI SaaS under NDA", body: "Content generation, optimization, and long-term planning modules for a multi-LLM SaaS platform." },
 ];
 

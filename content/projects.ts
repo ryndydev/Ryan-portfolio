@@ -55,18 +55,18 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "solar-x-canada",
-    title: "Solar X Canada",
+    slug: "solar-installer-platform",
+    title: "National Solar Installer Platform",
     category: "Renewable energy · Marketing platform",
     summary:
-      "High-traffic marketing site for one of Canada's largest residential solar installers: province-specific landing pages, rebate content, lead capture, and CRM-connected quote flows.",
+      "High-traffic marketing platform for a national residential solar installer: province-specific landing pages, rebate content, lead capture, and CRM-connected quote flows.",
     visibility: "public",
     tier: "featured",
     year: "2025",
     role: "Web developer",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "HubSpot", "SEO", "Analytics"],
     cover: "/images/projects/solarx-cover.webp",
-    gallery: ["/images/projects/solarx-cover.webp", "/images/projects/solarx-2.webp", "/images/projects/solarx-3.webp"],
+    gallery: ["/images/projects/solarx-cover.webp", "/images/projects/solarx-2.webp"],
     live: "https://solar-x.ca/",
     insight: [
       "Province and city landing pages built for local search",
@@ -74,7 +74,7 @@ export const projects: Project[] = [
       "Performance and Core Web Vitals work on a content-heavy site",
     ],
     challenge:
-      "A national installer with 10,000+ completed projects needed a site that ranks for local solar searches across four provinces, explains changing rebate programs clearly, and turns visitors into qualified assessment requests.",
+      "An installer with 10,000+ completed projects needed a site that ranks for local solar searches across four provinces, explains changing rebate programs clearly, and turns visitors into qualified assessment requests.",
     solution:
       "I work on the Next.js codebase that powers the site: province and city pages driven by structured content, rebate and resource sections that are easy for the marketing team to update, and lead forms connected to the CRM so sales gets clean, attributed leads. Ongoing work covers performance, tracking, and conversion improvements.",
     features: [
@@ -86,8 +86,8 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "solar-calculator-canada",
-    title: "Solar Calculator Canada",
+    slug: "solar-savings-estimator",
+    title: "Solar Savings Estimator",
     category: "Renewable energy · Interactive tool",
     summary:
       "Free public estimator that turns a Canadian address, bill, and roof details into panel count, battery sizing, savings, and ROI under each province's electricity rates.",
@@ -99,7 +99,6 @@ export const projects: Project[] = [
     cover: "/images/projects/solarcalc-cover.webp",
     gallery: ["/images/projects/solarcalc-cover.webp", "/images/projects/solarcalc-2.webp"],
     live: "https://www.solarcalculatorcanada.org/",
-    embed: "https://solarcalculatorcanada.org/",
     insight: [
       "Instant estimates with province-aware rate tables",
       "Panels, batteries, savings, and payback in one flow",

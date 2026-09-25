@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Mail, FileDown } from "lucide-react";
+import { Mail } from "lucide-react";
 import { GithubIcon, LinkedinIcon, WhatsappIcon } from "@/components/brand-icons";
 import { site } from "@/content/site";
 import { Container, SectionHeading } from "@/components/ui";
@@ -17,7 +17,6 @@ const links = [
   { icon: WhatsappIcon, label: "WhatsApp", value: site.phone, href: site.whatsapp },
   { icon: GithubIcon, label: "GitHub", value: "@ryndydev", href: site.socials.github },
   { icon: LinkedinIcon, label: "LinkedIn", value: "Ryan Adaya", href: site.socials.linkedin },
-  { icon: FileDown, label: "Resume", value: "PDF download", href: site.resumePath },
 ];
 
 export default function ContactPage() {
@@ -36,7 +35,6 @@ export default function ContactPage() {
                 href={l.href}
                 target={l.href.startsWith("http") ? "_blank" : undefined}
                 rel="noopener noreferrer"
-                download={l.label === "Resume" ? true : undefined}
                 className="card flex items-center gap-4 px-5 py-4 hover:border-amber/50"
               >
                 <span className="inline-flex size-10 items-center justify-center rounded-full border border-line text-amber">

@@ -14,7 +14,6 @@ export const site = {
     "I turn ideas into web apps people actually use, and make sure they get found. Database to deploy, plus the SEO to rank it, from one developer with no hand-offs. Working with clients worldwide, fully remote.",
   availability:
     "Open to remote full-stack and SEO work with clients anywhere in the world. Based in the Philippines (GMT+8), flexible hours to match your timezone.",
-  resumePath: "/Ryan-Adaya-Resume.pdf",
   socials: {
     github: "https://github.com/ryndydev",
     linkedin: "https://www.linkedin.com/in/ryan-adaya-220877198/",

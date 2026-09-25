@@ -31,11 +31,6 @@ export function Footer() {
                 <Link href={n.href} className="text-ink-muted transition-colors hover:text-ink">{n.label}</Link>
               </li>
             ))}
-            <li>
-              <a href={site.resumePath} download className="inline-flex items-center gap-1 text-ink-muted transition-colors hover:text-ink">
-                Download resume <ArrowUpRight className="size-3.5" aria-hidden />
-              </a>
-            </li>
           </ul>
         </div>
 

@@ -102,7 +102,7 @@ export default function AboutPage() {
         </ol>
         <Reveal className="mt-14 flex gap-3">
           <Button href="/contact">Work with me</Button>
-          <Button href={site.resumePath} variant="ghost" external>Download resume</Button>
+          <Button href="/portfolio" variant="ghost">See my work</Button>
         </Reveal>
       </Container>
     </>

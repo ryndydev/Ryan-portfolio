@@ -127,7 +127,7 @@ export default function HomePage() {
             <p className="mx-auto mt-5 max-w-xl text-ink-muted">{site.availability}</p>
             <div className="mt-8 flex justify-center gap-3">
               <Button href="/contact">Start a project</Button>
-              <Button href={site.resumePath} variant="ghost" external>Resume</Button>
+              <Button href="/portfolio" variant="ghost">See my work</Button>
             </div>
           </Reveal>
         </Container>
